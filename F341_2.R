@@ -22,7 +22,7 @@ f341_2$VLR = if_else(f341_2$REG == 5,
 F341_FINAL = c(paste(f341_2[,1], f341_2[,2], f341_2[,3], f341_2[,4], f341_2[,5], f341_2[,6], f341_2[,7],
                    sep = ""))
 
-F341_FINAL = c(c(base$V1[c(1:353678)]), F341_FINAL)
+F341_FINAL = c(c(base$V1[c(1:353678)]), F341_FINAL) #Cambiar la fila "353678" por el numero de fila del separador en el script F341_1
 
 write(F341_FINAL, "F0000104")  # Se exporta el documento final reconstruido con el formato aceptado por la SFC
 
