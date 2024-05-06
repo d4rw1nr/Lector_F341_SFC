@@ -24,6 +24,6 @@ La descripcion de los elementos en los script se relaciona a continuación:
 |base|Documento original importado|
 |f341_1|Base de datos estructurada segun la tabla anterior (En esta se pueden realizar todos los ajustes necesarios)|
 |f341_2|Base de datos transformada en el formato original para la información financiera de clientes|
-|f341_FINAL|Elemento completo con el formato final que es esportado y puede ser remitido a la SFC|
+|f341_FINAL|Elemento completo con el formato final que es exportado y puede ser remitido a la SFC|
 
 ***WARNING:*** A la hora de realizar ajustes, se debe tener en cuenta que se respeten los consecutivos y las sumatorias por columnas y renglones que son validadas de forma automática al ser transmitidas a la SFC.
